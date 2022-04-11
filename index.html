@@ -6,13 +6,114 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="css/col.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+<header class="header">
+  <div class="container">
+  <nav class="header__nav">
+    <ul class="header__list" style="list-style-type: none; display: flex; justify-content: space-between; align-items: center;">
+      <li class="header__item mac__logo">MacBro</li>
+      <li class="header__item">mac </li>
+      <li class="header__item">iphone bro</li>
+      <li class="header__item">ipad bro</li>
+      <li class="header__item">airpods bro</li>
+      <li class="header__item">watchbro</li>
+      <li class="header__item">smartfonlar<i class='bx bxs-chevron-down' ></i></li>
+      <li class="header__item">aksesuarlar<i class='bx bxs-chevron-down' ></i></li>
+      <li class="header__item"><i class='bx bxs-shopping-bag' ></i></li>
+      <li class="header__item"><i class='bx bx-search-alt-2' ></i></li>
+      <li class="header__item">
+        <i class='bx bx-log-in'></i>
+      </li>
+      <li class="header__item">
+        <select class="header__select" name="lang" id="lang">
+          <option class="option" value="uzbek">uz</option>
+          <option class="option" value="uzbek">ru</option>
+          <option class="option" value="uzbek">eng</option>
+        </select>
+      </li>
+    </ul>
+  </nav>
+</div>
+</header>
 
+<section class="hero mac">
+<div class="container">
+  <div class="mac__big-box">
+  <div class="mac__img-box" style="overflow: hidden;">
+    <div class="mac__slider-box" style="display: flex;">
+      <img class="mac__img" src="https://picsum.photos/id/250/300" alt="img">
+      <img class="mac__img" src="https://picsum.photos/id/250/300" alt="img">
+      <img class="mac__img" src="https://picsum.photos/id/250/300" alt="img">
+      <img class="mac__img" src="https://picsum.photos/id/250/300" alt="img">
+      <img class="mac__img" src="https://picsum.photos/id/250/300" alt="img">
+    </div>
+      <div>
+        <button class="mac__img-btn act-border">
+          <img src="https:picsum.photos/id/70/70" alt="img">
+        </button>
+        <button class="mac__img-btn">
+          <img src="https:picsum.photos/id/70/70" alt="img">
+        </button>
+        <button class="mac__img-btn">
+          <img src="https:picsum.photos/id/70/70" alt="img">
+        </button>
+        <button class="mac__img-btn">
+          <img src="https:picsum.photos/id/70/70" alt="img">
+        </button>
+        <button class="mac__img-btn">
+          <img src="https:picsum.photos/id/70/70" alt="img">
+        </button>
+  
+    </div>
+  </div>
+  <div class="mac__info">
+    <div class="mac__info-desc" style="display: flex; justify-content: space-between; align-items: center; margin: 0 0 35px;">
+      <h2 class="mac__title">MacBook Air 13-inch
+        M1/16/1tb Gray</h2>
+        <button class="mac__btn"><i class='bx bx-log-in'></i>
+        </button>
+    </div>
+    <div>
+      <h3 class="mac__ram">ram</h3>
+      <div style="display: flex;  margin: 0 0 25px 0;">
+        <button class="mac__ram-btn active">8 gb</button>
+        <button class="mac__ram-btn">16 gb</button>
+      </div>
+      <h3 class="mac__ram">hotira hajmi</h3>
+      <div style="display: flex;  margin: 0 0 25px 0;">
+        <button class="mac__ram-btn active">256 gb</button>
+        <button class="mac__ram-btn">512 gb</button>
+        <button class="mac__ram-btn">1 tb</button>
+      </div>
+      <h3 class="mac__ram">ranglar</h3>
+      <div style="display: flex; margin: 0 0 25px 0;">
+        <button class="mac__ram-btn active">tilla rang</button>
+        <button class="mac__ram-btn">kumush rang</button>
+        <button class="mac__ram-btn">kosmik kulrang</button>
+      </div>
+      <div style="margin:  10px 0 20px 0;">
+        <input type="number" placeholder="1">
+      </div>
+      <div style="margin: 45px 0;">
+        <p class="mac__price">21 606 500 so'm</p>
+        <button class="mac__price-btn btn-primary">Savatchaga qo'shish</button>
+        <button class=" mac__price-btn btn no-active">Taqqoslash</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <script src="js/main.js"></script>
 </body>
 
