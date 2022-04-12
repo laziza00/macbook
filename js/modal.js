@@ -8,7 +8,7 @@ let modalBtn5 = document.querySelector('.modal-btn5');
 let modalSlider = document.querySelector('.modal__slider-box')
 
 count3 =0
-px2 = 900
+px2 = 950
 modalBtn2.addEventListener('click', ()=> {
     count3 =1;
     modalSlider.style.transform = `translateX(-${px2}px)`
