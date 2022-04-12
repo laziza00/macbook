@@ -57,7 +57,7 @@ body {
   width: 85%;
   font-size: 48px;
   color: #1d1d1d;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.2;
   margin: 0 0 10px;
 }
@@ -158,6 +158,8 @@ body {
   height: 90px;
   padding: 10px;
   margin: 0 5px;
+  font-size: 28px;
+  font-weight: 600;
   border: 3px solid #fff;
   border-radius: 10px;
   justify-content: center;
