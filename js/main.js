@@ -8,7 +8,7 @@ let macSliderBox = document.querySelectorAll('.mac__slider-box img')
 let macSlider = document.querySelector('.mac__slider-box')
 
 count =0
-px = 470
+px = 490
 imgBtn2.addEventListener('click', ()=> {
     count =1;
     macSlider.style.transform = `translateX(-${px}px)`

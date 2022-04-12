@@ -65,7 +65,7 @@ body {
   width: 350px;
   height: 350px;
   display: flex;
-  margin: 0 70px 40px 70px;
+  margin: 0 75px 40px 75px;
   transition: all 0.3s ease;
 }
 .mac__info-desc {
@@ -166,7 +166,10 @@ body {
   text-align: center;
 }
 .color {
-  font-size: 20px  !important;
+  padding: 10px;
+  width: 270px;
+  margin: 0 5px 15px 5px;
+  font-size: 18px  !important;
   text-transform: capitalize;
 }
 .color span{
@@ -177,10 +180,10 @@ body {
   margin: 0 auto 5px auto;
 }
 .color1 {
-  background-color: rgb(238, 218, 104);
+  background-color: rgb(243, 211, 32);
 }
 .color2 {
-  background-color: rgb(122, 122, 118);
+  background-color: rgb(141, 141, 135);
 }
 .color3 {
   background-color: rgb(92, 92, 89);

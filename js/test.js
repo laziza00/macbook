@@ -137,3 +137,10 @@ const macBook = [
 
     }
 ];
+
+
+// for (let i=0; i<macBook.length; i++) {
+//     for(let j =i; macBook[0]; j++) {
+//         console.log(macBook[j]);
+//     }
+// }
