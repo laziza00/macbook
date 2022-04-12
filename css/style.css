@@ -23,6 +23,7 @@ body {
   width: 100%;
   background-color: #1d1d1d;
   padding: 18px 0;
+  z-index: 20;
 }
 .header__item {
   font-size: 16px;
@@ -61,10 +62,11 @@ body {
   margin: 0 0 10px;
 }
 .mac__img {
-  width: 150px;
-  height: 150px;
+  width: 350px;
+  height: 350px;
   display: flex;
-  margin: 0 200px 40px 200px;
+  margin: 0 70px 40px 70px;
+  transition: all 0.3s ease;
 }
 .mac__info-desc {
   width: 100%;
@@ -72,6 +74,7 @@ body {
 .mac__img-box {
   padding: 50px 0;
   width: 100%;
+  position: relative;
 }
 .mac__ram {
   font-size: 18px;
@@ -99,7 +102,7 @@ body {
   border: 1px solid #1d1d1d;
   width: 200px;
   margin: 0 7px;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 .active {
   border: 3px solid #0066cc;
@@ -110,6 +113,11 @@ body {
   font-weight: 600;
   font-size: 32px;
   line-height: 40px;
+  margin: 0 0 8px 0;
+}
+.mac__price2 {
+  font-weight: 300;
+  text-decoration: line-through;
 }
 .mac__price-btn {
   background: #0066cc;
@@ -150,11 +158,108 @@ body {
   height: 90px;
   padding: 10px;
   margin: 0 5px;
-}
-.mac__img-btn img{
+  border: 3px solid #fff;
   border-radius: 10px;
+  justify-content: center;
+  text-align: center;
+}
+.color {
+  font-size: 20px  !important;
+  text-transform: capitalize;
+}
+.color span{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 5px auto;
+}
+.color1 {
+  background-color: rgb(238, 218, 104);
+}
+.color2 {
+  background-color: rgb(122, 122, 118);
+}
+.color3 {
+  background-color: rgb(92, 92, 89);
+}
+.mac__img-btn:hover {
+  border: 3px solid #1d1d1d;
+  transition: all 0.3s ease;
+}
+
+.mac__img-inner {
+  border-radius: 10px;
+  width: 70px;
+  height: 70px;
 }
 .act-border {
   border: 3px solid #1d1d1d;
   border-radius: 10px;
+}
+
+.addBox {
+  margin-bottom: 16px;
+  width: 200px;
+  height: 40px;
+  border: 1px solid #888;
+  border-radius: 8px;
+}
+
+.minusBtn {
+  width: 27%;
+  background-color: #fff;
+  border: none;
+  border-right: none;
+}
+.numberInput {
+  width: 30%;
+  padding: 6px;
+  width: 80px;
+  outline: none;
+  border: 1px solid #888;
+  border-top-color: transparent;
+}
+
+.plusBtn {
+  width: 25%;
+  background-color: #fff;
+  border: none;
+}
+
+.mac__full-btn {
+  position: absolute;
+  top: 43%;
+  left: 460px;
+  background-color: transparent;
+  color: #888;
+  font-size: 40px;
+  border: none;
+}
+.mac__full-btn:hover {
+  color: #0066cc;
+}
+.modal__img-btn {
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+.modal__img-btn:hover {
+  border: 2px solid #1d1d1d;
+  transition: all 0.3s ease;
+}
+.modal__img-inner{
+  border-radius: 10px;
+  width: 80px;
+  height: 80px;
+}
+.modal__img {
+  width: 500px;
+  height: 350px;
+  margin: 0 320px;
+  transition: all 0.3s ease;
+}
+.modal-border {
+  border: 2px solid #1d1d1d;
 }
