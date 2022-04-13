@@ -47,11 +47,12 @@ body {
   padding: 50px 0;
 }
 .mac__big-box {
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
 .mac__info {
-  width: 100%;
+  width: 50%;
 }
 .mac__title {
   width: 85%;
@@ -73,7 +74,7 @@ body {
 }
 .mac__img-box {
   padding: 50px 0;
-  width: 100%;
+  width: 50%;
   position: relative;
 }
 .mac__ram {
@@ -99,7 +100,7 @@ body {
   background-color: transparent;
   border-radius: 12px;
   display: block;
-  border: 1px solid #1d1d1d;
+  border: 3px solid #1d1d1d;
   width: 200px;
   margin: 0 7px;
   text-transform: uppercase;
@@ -169,8 +170,17 @@ body {
   padding: 10px;
   width: 270px;
   margin: 0 5px 15px 5px;
-  font-size: 18px  !important;
+  font-size: 18px !important;
   text-transform: capitalize;
+}
+.color:nth-child(1) span {
+  background-color: rgb(243, 211, 32);
+}
+.color:nth-child(2) span {
+  background-color: rgb(141, 141, 135);
+}
+.color:nth-child(3) span {
+  background-color: rgb(92, 92, 89);
 }
 .color span{
   width: 20px;
@@ -179,15 +189,7 @@ body {
   display: block;
   margin: 0 auto 5px auto;
 }
-.color1 {
-  background-color: rgb(243, 211, 32);
-}
-.color2 {
-  background-color: rgb(141, 141, 135);
-}
-.color3 {
-  background-color: rgb(92, 92, 89);
-}
+
 .mac__img-btn:hover {
   border: 3px solid #1d1d1d;
   transition: all 0.3s ease;
