@@ -127,8 +127,8 @@ btn1.addEventListener('click', ()=> {
 btn2.addEventListener('click', ()=> {
   btn2.style.background="rgb(231, 228, 228)"
   btn1.style.background="#fff"
-  text1.style.display ="block"
-  text2.style.display = "none"
+  text1.style.display ="none"
+  text2.style.display = "block"
 })
 // let plusBtn = document.querySelector('.plusBtn')
 // let numberInput = document.querySelector('.numberInput')
