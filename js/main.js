@@ -71,19 +71,3 @@ const macObj = {
 
 
 
-// let plusBtn = document.querySelector('.plusBtn')
-// let minusBtn = document.querySelector('.minusBtn')
-// let macFullBtn =document.querySelector('.mac__full-btn')
-
-// plusBtn.addEventListener('click', ()=> {
-//     let a = macPrice.textContent*2
-//     console.log(a);
-//     macPrice.textContent = a
-//     macPrice2.textContent= `${macPrice/2}`
-// })
-// minusBtn.addEventListener('click', ()=> {
-//     let a = macPrice.textContent*2
-//     console.log(a);
-//     macPrice.textContent = a
-//     macPrice2.textContent= `${macPrice/2}`
-// })
