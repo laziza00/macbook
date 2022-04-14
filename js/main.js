@@ -1,126 +1,75 @@
-// let imgBtn1 = document.querySelector('.img-btn1');
-// let imgBtn2 = document.querySelector('.img-btn2');
-// let imgBtn3 = document.querySelector('.img-btn3');
-// let imgBtn4 = document.querySelector('.img-btn4');
-// let imgBtn5 = document.querySelector('.img-btn5');
+const macObj = {
+    name: "Mac Book Air 13-inch",
+    ram: [
+      {
+        ramSize: 8,
+        active: true,
+        memory: [
+          {
+            active: true,
+            size: 256,
+            price: 12497000,
+          },
+          {
+            active: false,
+            size: 512,
+            price: 16935000,
+          },
+        ],
+      },
+      {
+        ramSize: 16,
+        active: false,
+        memory: [
+          {
+            active: true,
+            size: 256 ,
+            price: 19270500,
+          },
+          {
+            active: false,
+            size: 512 ,
+            price: 20000000,
+          },
+          {
+            active: false,
+            size: 1,
+            price: 20438500,
+          },
+        ],
+    
+      },
+    ],
+    Gold: [
+    '../images/macbookAir.webp',
+      '../images/macPink2.jpg', 
+      '../images/macPink3.jpg',
+      '../images/macPink4.jpg',
+       '../images/macPink5.jpg' ,
+      
+    ],
+       Silver:
+     [
+          '../images/macSilver1.jpg',
+           '../images/macSilver2.jpg',
+            '../images/macSilver3.jpg', 
+            '../images/macSilver4.jpg',
+             '../images/macSilver5.jpg'
+        ],
+     
 
-// let macSliderBox = document.querySelectorAll('.mac__slider-box img')
-// let macSlider = document.querySelector('.mac__slider-box')
-
-// count =0
-// px = 490
-
-// imgBtn2.addEventListener('click', ()=> {
-//     count =1;
-//     macSlider.style.transform = `translateX(-${px}px)`
-//     imgBtn2.classList.add('act-border')
-//     imgBtn1.classList.remove('act-border')
-//     imgBtn3.classList.remove('act-border')
-//     imgBtn4.classList.remove('act-border')
-//     imgBtn5.classList.remove('act-border')
-// })
-// imgBtn3.addEventListener('click', ()=> {
-//     count =2;
-//     macSlider.style.transform = `translateX(-${px*count}px)`
-//     imgBtn3.classList.add('act-border')
-//     imgBtn2.classList.remove('act-border')
-//     imgBtn1.classList.remove('act-border')
-//     imgBtn4.classList.remove('act-border')
-//     imgBtn5.classList.remove('act-border')
-// })
-// imgBtn4.addEventListener('click', ()=> {
-//     count =3;
-//     macSlider.style.transform = `translateX(-${px*count}px)`
-//     imgBtn4.classList.add('act-border')
-//     imgBtn3.classList.remove('act-border')
-//     imgBtn2.classList.remove('act-border')
-//     imgBtn1.classList.remove('act-border')
-//     imgBtn5.classList.remove('act-border')
-// })
-// imgBtn5.addEventListener('click', ()=> {
-//     count =4;
-//     macSlider.style.transform = `translateX(-${px*count}px)`
-//     imgBtn5.classList.add('act-border')
-//     imgBtn4.classList.remove('act-border')
-//     imgBtn3.classList.remove('act-border')
-//     imgBtn2.classList.remove('act-border')
-//     imgBtn1.classList.remove('act-border')
-// })
-// imgBtn1.addEventListener('click', ()=> {
-//     count =0;
-//     macSlider.style.transform = `translateX(${px*count}px)`
-//     imgBtn1.classList.add('act-border')
-//     imgBtn5.classList.remove('act-border')
-//     imgBtn3.classList.remove('act-border')
-//     imgBtn2.classList.remove('act-border')
-//     imgBtn1.classList.remove('act-border')
-//     imgBtn4.classList.remove('act-border')
-// })
+     Graycolor:
+            [
+          '../images/macGrey1.jpg',
+           '../images/macGrey2.jpg', 
+           '../images/macGrey3.jpg',
+            '../images/macGrey4.jpg',
+             '../images/macGrey5.jpg'
+            ],
+        total: 0,
+  };
 
 
-
-
-// let btn16gb = document.querySelector('.btn16gb')
-// let btn8gb = document.querySelector('.btn8gb')
-// let btn256gb = document.querySelector('.btn256gb')
-// let btn512gb = document.querySelector('.btn512gb')
-// let btn1tb = document.querySelector('.btn1tb')
-// let btngold = document.querySelector('.btngold')
-// let btngray = document.querySelector('.btngray')
-// let btngraycosmos = document.querySelector('.btngraycosmos')
-// let macPrice = document.querySelector('.mac__price')
-// let macPrice2 = document.querySelector('.mac__price2')
-
-// count2 =0
-
-// btn16gb.addEventListener('click', ()=> {
-//     btn1tb.classList.remove('d-none')
-//     btn16gb.classList.add('active')
-//     btn8gb.classList.remove('active')
-//     macPrice.textContent ="16 935 000"
-//     macPrice2.textContent= "19 813 500"
-// })
-// btn8gb.addEventListener('click', ()=> {
-//     btn16gb.classList.remove('active')
-//     btn8gb.classList.add('active')
-//     btn1tb.classList.add('d-none')
-//     macPrice.textContent ="12 497 000"
-//     macPrice2.textContent= "14 621 000"
-// })
-// btn512gb.addEventListener('click', ()=> {
-//     btn256gb.classList.remove('active')
-//     btn1tb.classList.remove('active')
-//     btn512gb.classList.add('active')
-//     btn1tb.classList.remove('d-none')
-//     macPrice.textContent ="19 270 500"
-//     macPrice2.textContent= "22 546 500"
-//     count2 =1
-// })
-// btn1tb.addEventListener('click', ()=> {
-//     count2 =0
-//     btn512gb.classList.remove('active')
-//     btn1tb.classList.add('active')
-//     btn8gb.classList.add('d-none')
-//     btn16gb.classList.add('active')
-//     macPrice.textContent ="20 438 500"
-//     macPrice2.textContent= "23 913 000"
-//     // count2 =1
-//     if(count2==1) {
-//         btn512gb.classList.add('active')
-//         btn1tb.classList.remove('active')
-//         btn8gb.classList.remove('d-none')
-//         btn16gb.classList.remove('active')
-//     }
-// })
-// btn256gb.addEventListener('click', ()=> {
-//     btn512gb.classList.remove('active')
-//     btn256gb.classList.add('active')
-//     btn1tb.classList.remove('active')
-//     btn8gb.classList.remove('d-none')
-//     btn16gb.classList.remove('active')
-//     macPrice.textContent ="16 935 000"
-//     macPrice2.textContent= "19 813 500"
-// })
 
 // let plusBtn = document.querySelector('.plusBtn')
 // let minusBtn = document.querySelector('.minusBtn')
