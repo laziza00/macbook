@@ -117,7 +117,7 @@ let btn2 = document.querySelector('.btn2')
 let text1 = document.querySelector('.text1')
 let text2 = document.querySelector('.text2')
 
-text1.style.display ="none"
+text2.style.display ="none"
 btn1.addEventListener('click', ()=> {
   text1.style.display ="block"
   text2.style.display = "none"
@@ -127,8 +127,8 @@ btn1.addEventListener('click', ()=> {
 btn2.addEventListener('click', ()=> {
   btn2.style.background="rgb(231, 228, 228)"
   btn1.style.background="#fff"
-  text1.style.display ="none"
-  text2.style.display = "block"
+  text1.style.display ="block"
+  text2.style.display = "none"
 })
 // let plusBtn = document.querySelector('.plusBtn')
 // let numberInput = document.querySelector('.numberInput')
